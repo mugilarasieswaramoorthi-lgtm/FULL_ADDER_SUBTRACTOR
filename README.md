@@ -54,6 +54,8 @@ module full_adder (
     assign carry = (a & b) | (b & cin) | (a & cin); // Majority function for carry
 
 endmodule
+
+
 Developed by: Mugilarasi E
 Register number: 25017644
 
