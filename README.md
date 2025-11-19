@@ -60,11 +60,20 @@ Developed by: Mugilarasi E
 Register number: 25017644
 
 **RTL Schematic**
+FULL_ADDER
 <img width="1919" height="1079" alt="Screenshot 2025-11-16 105317" src="https://github.com/user-attachments/assets/a677d86c-5501-40be-a93d-56e2d43ccdfc" />
+FULL_SUBTRACTOR
+<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/b773175e-d776-4dfa-a333-23055eede1d9" />
+
+
 
 
 **Output Timing Waveform**
+FULL_ADDER
 <img width="1919" height="1079" alt="Screenshot 2025-11-16 105336" src="https://github.com/user-attachments/assets/7bfcdbf2-b284-4356-9aaa-fe2d04cece38" />
+FULL_SUBTRACTOR
+<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/a371ca6e-9108-44b2-b495-f88f7282fdc2" />
+
 
 
 **Result:**
