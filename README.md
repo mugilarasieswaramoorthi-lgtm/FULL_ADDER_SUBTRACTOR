@@ -43,6 +43,7 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
+FULL ADDER
 // Full Adder in Verilog
 module full_adder (
     input  wire a, b, cin,   // Inputs
@@ -54,6 +55,21 @@ module full_adder (
     assign carry = (a & b) | (b & cin) | (a & cin); // Majority function for carry
 
 endmodule
+
+
+FULL SUBTRACTOR
+// Full Subtractor in Verilog
+module full_subtractor (
+    input  wire a, b, bin,       // Inputs
+    output wire diff, borrow     // Outputs
+);
+
+    // Logic equations
+    assign diff   = a ^ b ^ bin;                  // Difference
+    assign borrow = (~a & b) | (~(a ^ b) & bin);  // Borrow logic
+
+endmodule
+
 
 
 Developed by: Mugilarasi E
